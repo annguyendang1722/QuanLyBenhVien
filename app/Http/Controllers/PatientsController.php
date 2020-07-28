@@ -154,7 +154,7 @@ class PatientsController extends Controller
       $patient->diagnosed_go_out_hospital = $request->diagnosed_go_out_hospital;
 
       $patient->save();
-       return redirect('patient/edit/'.$patient->id)->with('notification','Sửa thành công');
+     //  return redirect('patient/edit/'.$patient->id)->with('notification','Sửa thành công');
 
     }
 
